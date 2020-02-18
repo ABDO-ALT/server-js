@@ -1,0 +1,8 @@
+get /albums -> all albums
+get /albums/:albumId --> the album with that albumId
+
+post /albums -> create new album with the content of the request body
+
+delete /albums/:albumId -> remove the album with that albumId
+
+put /albums:albumId -> update the album with that albumId to the content of the request body
